@@ -1,4 +1,17 @@
+@font-face{
+    src: url(fonts/Gotham\ Medium.otf);
+    font-family: "Gotham Book";
+}
 
+
+/* 
+top: 0;
+  left: 50%;
+
+*/
+
+
+/* General */
 *{
     margin: 0; 
     padding: 0;
@@ -7,9 +20,8 @@
 
 body{
     box-sizing: border-box;
+    font-family: "Gotham Book", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
-
-/* Page 1 Navbar */
 
 .clrW{
     color: white;
@@ -20,40 +32,97 @@ body{
     
 }
 
+.clear{
+    clear: both;
+}
+
+
+
+h1,h2,p{
+    font-weight: 500;
+}
+
+
+.border_both{
+    border-left:1px solid white;
+    border-right:1px solid white
+}
+
+.box{
+    display: inline-block;
+    padding: 10px 30px;
+}
+
+.box h2{
+    /* font-family: 500; */
+    font-size: 28px;
+    line-height: 36px;
+}
+
+.order-now-btn-white{
+    color: white;
+    border: 3px solid white;
+}
+
+.order-now-btn-white:hover{
+    color: rgb(75, 66, 66);
+    background-color: white;
+    font-family: "Gotham Book", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 400;
+}
+
+.order-now-btn{
+    border-radius: 50px;
+    margin-left: 20px;
+    padding:10px 40px;
+    line-height:14.4px;
+    font-weight:bold;
+    background-color: Transparent;
+}
+
+/* Page 1 Navbar */
+
+
+
+
 #wrapper{
+    position: relative;
     background-image: url('https://tesla-cdn.thron.com/delivery/public/image/tesla/b03da2fc-ecaa-4554-8df9-8f73e411f360/bvlatuR/std/2880x1800/model-3-hero-desktop');
     height: 100vh;
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
 #Navbar-content{
-    padding: 15px;
+    padding: 2px;
 }
 
 #Navbar-content img{
+    position: relative;
+    top: 8px;
+    left: 20px;
     width: 100px;
-    height: 12px;
+    height: 10px;
     float: left;
     
 }
 
 .main-logo{
     position: relative;
-    top: 10px;
-    margin-top: 10px;
+    margin-top: 15px;
     width: 25%;
 }
 
-.link_List{    
-    font-weight: bold;
+.link_List{ 
+    font-size: 15px;   
     text-align: center;
     width: 90%;
     float: right;
 }
 
 .link_List li{
-    font-family: "Gotham Book", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;;
+    font-family: "Gotham Book", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     display: inline;
     padding: 10px;
 }
@@ -65,13 +134,31 @@ body{
 
 }
 
-.link_list-contatct{
-    text-align: right;
-    width: 200%;
-    float: right;
+/* Page1 */
+
+#page-1-content {
+    /* position: relative; */
+    text-align: center;
+    /* height:90vh */
 }
 
-.link_list-contatct li{
-    display: inline;
-    
+#page-1-content h1{
+    font-size: 40px;
+    padding-top: 50px;
+    color: white
 }
+
+.car-info{
+    /* position: relative; */
+    right: 0px;
+    margin-top: 410px;
+}
+
+
+.car-info button{
+    position: relative;
+    bottom: 15px;
+}
+
+
+
