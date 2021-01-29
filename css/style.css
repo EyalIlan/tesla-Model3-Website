@@ -80,10 +80,22 @@ h1,h2,p{
     background-color: Transparent;
 }
 
+
+.arrow {
+    margin-top: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    /* padding: 3px; */
+  }
+
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+
 /* Page 1 Navbar */
-
-
-
 
 #wrapper{
     position: relative;
@@ -149,7 +161,7 @@ h1,h2,p{
 }
 
 .car-info{
-    /* position: relative; */
+    position: relative;
     right: 0px;
     margin-top: 410px;
 }
@@ -162,3 +174,18 @@ h1,h2,p{
 
 
 
+.down-page-arrow{
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+}
+.message-icon{
+    font-size: 30px;
+    position: absolute;
+    right: 25px;
+    top: 20px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 50%;
+}
