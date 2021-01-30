@@ -60,6 +60,20 @@ p{
 }
 
 
+.left-title{
+    margin-bottom: 20px;
+}
+
+.left-title h2{
+    font-size:17px;
+    color: #6E7074 ;
+}
+
+.left-title h1{
+    font-size:28px;
+}
+
+
 .border_both{
     border-left:1px solid white;
     border-right:1px solid white
@@ -84,6 +98,14 @@ p{
     font-size: 12px;
     line-height:18px;
 }
+
+.box-descritpions{
+    position: absolute;
+    width: 1100px;
+    bottom: 85px;
+    left: 14%;
+}
+
 
 
 .plus-button{
@@ -153,6 +175,27 @@ p{
     transform: rotate(-135deg);
     -webkit-transform: rotate(-135deg);
   }
+
+
+  .bg-up{
+    height: 70vh;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;   
+}
+
+.bg-low{   
+    height: 30vh;
+    background-color: white;
+}
+
+
+.low-content{
+    width: 975px;
+    margin: auto;
+}
 
   .wrapper{
       position: relative;
@@ -388,53 +431,59 @@ p{
     background-color: #F4F4F4;
 }
 
-.page3-bg-middle{
-    height: 70vh;
-    position: relative;
+.page3-bg-up{
     background-image: url('../images/bg3.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;   
 }
 
-.page3-bg-low{
-    /* text-align: center; */
-    height: 30vh;
-    background-color: white;
-}
 
-.page3-box-descritpions{
-    position: absolute;
-    width: 1100px;
-    bottom: 85px;
-    left: 14%;
-}
 
-.page3-low-content{
-    width: 975px;
-    margin: auto;
-}
+
+
+
+
+
+
+
 .page3-content-low-left{
     padding: 40px 35px;
     float: left;
 }
+.content-low-left{
+    padding: 40px 35px;
+    float: left;
+}
+
+
 .page3-content-low-right{
     padding: 45px 45px;
 }
 
-.page3-left-title{
-    margin-bottom: 20px;
-}
 
-.page3-left-title h2{
-    font-size:17px;
-    color: #959799 ;
-}
+
 
 .page3-content-low-right p{
     font-size:14px;
     line-height:21px;
     color: #959799;
+    text-decoration:none solid rgb(57, 60, 65)
+}
+
+/* page 4 */
+
+
+.page4-bg-up{
+    position: relative;
+    background-image: url('../images/bg4.jpg');
+}
+
+.page4-content-low-right{
+  padding: 45px 20px; 
+  margin-left: 340px;
+}
+
+.page4-content-low-right p{
+    font-size:14px;
+    line-height:21px;
+    color: #6E7074;
     text-decoration:none solid rgb(57, 60, 65)
 }
