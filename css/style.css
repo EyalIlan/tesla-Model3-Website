@@ -59,25 +59,55 @@ h1,h2{
     line-height: 36px;
 }
 
-.order-now-btn-white{
-    color: white;
-    border: 3px solid white;
-}
 
-.order-now-btn-white:hover{
-    color: rgb(75, 66, 66);
-    background-color: white;
-    font-family: "Gotham Book", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    font-weight: 400;
+
+.plus-button{
+    font-weight: bold;
+    font-size: 24px;
+    color: black;
+    padding:5px 12px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 3px solid black;
+    cursor: pointer;
+}
+.plus-button:hover{
+    background-color: black;
+    color: white;
 }
 
 .order-now-btn{
     border-radius: 50px;
     margin-left: 20px;
-    padding:10px 40px;
+    padding:10px 25px;
     line-height:14.4px;
     font-weight:bold;
     background-color: Transparent;
+}
+
+
+.order-now-btn-white{
+    color: white;
+    border: 3px solid white;
+    font-family: "Gotham Book", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.order-now-btn-white:hover{
+    color: rgb(75, 66, 66);
+    background-color: white;
+    font-weight: 400;
+}
+
+
+.order-now-btn-black{
+    color: #5C5F63;
+    border: 3px solid black;
+    font-family: "Gotham Book", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.order-now-btn-black:hover{
+    color: white;
+    background-color: black;
 }
 
 
@@ -230,6 +260,7 @@ h1,h2{
 
 
 .page2-container{
+    position: relative;
     background-color: white;
     width: 25%;
 }
@@ -247,7 +278,7 @@ h1,h2{
 
 
 .page2-container-content{
-    padding-left: 35px;
+    padding-left: 40px;
     padding-right: 40px;
 }
 
@@ -283,11 +314,53 @@ h1,h2{
     padding: 30px;
 }
 
+
+.page2-container-content-down p{
+    font-weight:400;
+    font-size: 8px;
+    font-family:' Gotham Book';
+     color:#393c41;
+     line-height:8px
+}
+
+.page2-container-content-down ul{
+    list-style-type: none;
+}
+
+.page2-container-content-down ul li{
+    padding-bottom: 10px;
+}
+
+
 .page2-container-content .page2-container-content-down .page2-down-title{
+
     text-align: center;
+    margin-bottom: 20px;
 } 
 
 .page2-container-content .page2-container-content-down .page2-down-title h2{
     font-size: 20px;
     line-height: 28px;
+}
+
+
+.page2-container-content .page2-container-content-down .page2-list-title{
+    float: left;
+}
+
+.page2-container-content .page2-container-content-down .page2-list-title h4{
+    color:#393c41;
+}
+
+.page2-container-content .page2-container-content-down .page2-list-rating{
+   text-align: right;
+}
+.page2-order{
+    position: absolute;
+    bottom: 50px;
+}
+.page2-container-content .page2-order label{
+    font-size: 12px;
+    color: #74767A;
+    margin: 0 4px;
 }
