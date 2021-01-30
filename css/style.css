@@ -37,9 +37,26 @@ body{
 }
 
 
+.label-decoration{
+    font-size: 12px;
+    color: #74767A;
+    margin: 0 4px;
+
+}
+
+.tesla-img{
+    padding: 15px;
+    width: 110px;
+    height: 12px;
+}
+
 
 h1,h2{
     font-weight: 500;
+}
+
+p{
+    font-weight: 400;
 }
 
 
@@ -49,16 +66,24 @@ h1,h2{
 }
 
 .box{
+    color: white;
     display: inline-block;
     padding: 10px 30px;
+    max-width: 280px;
 }
 
 .box h2{
     /* font-family: 500; */
     font-size: 28px;
     line-height: 36px;
+    padding-bottom: 2px;
 }
-
+.box p{
+    color: #ece8e8;
+    font-weight:400;
+    font-size: 12px;
+    line-height:18px;
+}
 
 
 .plus-button{
@@ -78,7 +103,7 @@ h1,h2{
 
 .order-now-btn{
     border-radius: 50px;
-    margin-left: 20px;
+    margin-left: 5px;
     padding:10px 25px;
     line-height:14.4px;
     font-weight:bold;
@@ -266,15 +291,6 @@ h1,h2{
 }
 
 
-.page2-container-logo{
-    text-align: left;
-}
-.page2-container-logo img{
-    padding: 15px;
-    width: 110px;
-    height: 12px;
-    
-}
 
 
 .page2-container-content{
@@ -357,10 +373,68 @@ h1,h2{
 }
 .page2-order{
     position: absolute;
-    bottom: 50px;
+    bottom: 40px;
 }
-.page2-container-content .page2-order label{
+/* .page2-container-content .page2-order label{
     font-size: 12px;
     color: #74767A;
     margin: 0 4px;
+
+} */
+/* page  3*/
+
+.page3-bg-upper{
+    height: 25vh;
+    background-color: #F4F4F4;
+}
+
+.page3-bg-middle{
+    height: 70vh;
+    position: relative;
+    background-image: url('../images/bg3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;   
+}
+
+.page3-bg-low{
+    /* text-align: center; */
+    height: 30vh;
+    background-color: white;
+}
+
+.page3-box-descritpions{
+    position: absolute;
+    width: 1100px;
+    bottom: 85px;
+    left: 14%;
+}
+
+.page3-low-content{
+    width: 975px;
+    margin: auto;
+}
+.page3-content-low-left{
+    padding: 40px 35px;
+    float: left;
+}
+.page3-content-low-right{
+    padding: 45px 45px;
+}
+
+.page3-left-title{
+    margin-bottom: 20px;
+}
+
+.page3-left-title h2{
+    font-size:17px;
+    color: #959799 ;
+}
+
+.page3-content-low-right p{
+    font-size:14px;
+    line-height:21px;
+    color: #959799;
+    text-decoration:none solid rgb(57, 60, 65)
 }
