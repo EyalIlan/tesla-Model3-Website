@@ -340,6 +340,35 @@ p{
     padding-left: 40px;
     padding-right: 40px;
 }
+.page5-container-content{
+    float:right;
+    width: 29%;
+    
+}
+
+ .page5-container-content-upper h2{
+    font-family: "Gotham Light";
+    color:rgb(87, 92, 102);
+    font-size:20px;
+    line-height:17px;
+}
+ .page5-container-content-upper h1{
+    font-weight:500;
+    color:rgb(23, 26, 32);
+    font-size:28px;
+    line-height:36px;
+}
+ .page5-container-content-upper p{
+    /* font-weight:200; */
+    font-size: 14px;
+    font-family: "Gotham Book";
+    padding-top: 16px;
+    color:#626268;
+    line-height:21px;
+    margin-bottom: 26px
+}
+
+
 
 
 .page2-container-content .page2-container-content-upper h2{
@@ -486,4 +515,57 @@ p{
     line-height:21px;
     color: #6E7074;
     text-decoration:none solid rgb(57, 60, 65)
+}
+
+/* page5 */
+
+.page5-bg{
+    position: relative;
+    background-image: url('../images/bg5.jpg');
+    height: 100vh;
+    width: 70vw;
+    float: left;
+}
+.page5-bg .box-descritpions .box{
+    max-width: 205px;
+}
+
+
+.page5-container-content{
+    padding-left:24px;
+    padding-right: 40px;
+    float:right;
+    width: 25%;
+    
+}
+
+ .page5-container-content-upper h2{
+    font-family: "Gotham Light";
+    color:rgb(87, 92, 102);
+    font-size:20px;
+    line-height:17px;
+}
+ .page5-container-content-upper h1{
+    font-weight:500;
+    color:rgb(23, 26, 32);
+    font-size:28px;
+    line-height:36px;
+}
+ .page5-container-content-upper p{
+    /* font-weight:200; */
+    font-size: 16px;
+    font-family: "Gotham Book";
+    padding-top: 16px;
+    color:#626268;
+    line-height:21px;
+    margin-bottom: 26px
+}
+
+.page5-upper-right-side{
+    margin-top: 35px;
+}
+
+.page5-map-image img{
+    width: 350px;
+    /* height: 100px; */
 }
