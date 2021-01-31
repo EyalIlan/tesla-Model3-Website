@@ -569,3 +569,42 @@ p{
     width: 350px;
     /* height: 100px; */
 }
+
+.page5-buttons{
+    margin-top: 10px;
+}
+
+/* page 6 */
+
+.page6-bg{
+    position: relative;
+    background-image: url('../images/bg6.png');
+}
+
+.page6-box{
+    width: 240px;
+    margin-left: 150px;
+}
+.page6-box h1{
+    font-size: 28px;
+    
+}
+
+.page6-box p{
+    color: #717171;
+    font-size:12px;
+    padding-top: 10px;
+}
+
+.page6-box img{
+    width: 40px;
+}
+
+.page6-box hr{
+   width: 30%;
+  margin: 40px 0px;
+}
+
+.inline-title{
+    display: inline-block;
+}
